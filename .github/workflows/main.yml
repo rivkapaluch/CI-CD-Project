@@ -32,5 +32,9 @@ jobs:
     - name: Build Docker image
       run: docker build -t my-flask-app:${{ github.sha }} .
 
-    - name: Push Docker image (Optional - for deployment)
-      run: echo "Docker image built: my-flask-app:${{ github.sha }}"
+    - name: Echo Docker image info  # Changed step name for clarity
+      run: echo "Docker image built - my-flask-app:${{ github.sha }}"
+# End of file (ensure no trailing spaces after this line)
+
+
+  
