@@ -39,7 +39,4 @@ jobs:
 
     - name: Echo Docker image info  # Changed step name for clarity
       run: echo "Docker image built - my-flask-app:${{ github.sha }}"
-# End of file (ensure no trailing spaces after this line)
-
-
-  - 
+# End of file (ensure no trailing spaces after this line) 
